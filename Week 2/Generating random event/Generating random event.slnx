@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Generating random event/Generating random event.vcxproj" />
+  <Project Path="Generating random event/Generating random event.vcxproj" Id="cd56cba1-d9d4-4bcb-b6d1-b3781dadf625" />
 </Solution>
