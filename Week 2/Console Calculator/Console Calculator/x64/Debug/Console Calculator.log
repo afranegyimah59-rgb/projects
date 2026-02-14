@@ -1,0 +1,4 @@
+﻿  Console Calculator.cpp
+C:\Users\USER\Desktop\projects\Week 2\Console Calculator\Console Calculator\Console Calculator.cpp(15,22): warning C4129: ',': unrecognized character escape sequence
+C:\Users\USER\Desktop\projects\Week 2\Console Calculator\Console Calculator\Console Calculator.cpp(21,10): warning C4101: 'choice': unreferenced local variable
+  Console Calculator.vcxproj -> C:\Users\USER\Desktop\projects\Week 2\Console Calculator\x64\Debug\Console Calculator.exe

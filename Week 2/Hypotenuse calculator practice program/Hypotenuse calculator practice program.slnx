@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Hypotenuse calculator practice program/Hypotenuse calculator practice program.vcxproj" />
+</Solution>

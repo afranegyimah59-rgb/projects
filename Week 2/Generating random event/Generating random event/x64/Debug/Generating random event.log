@@ -1,0 +1,3 @@
+﻿  Generating random event.cpp
+C:\Users\USER\Desktop\projects\Week 2\Generating random event\Generating random event\Generating random event.cpp(9,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating random event.vcxproj -> C:\Users\USER\Desktop\projects\Week 2\Generating random event\x64\Debug\Generating random event.exe

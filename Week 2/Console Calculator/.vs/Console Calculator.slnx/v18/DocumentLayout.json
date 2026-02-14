@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\projects\\Week 2\\Console Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E39E2DA-FA07-44ED-9762-BA6CD036FA07}|Console Calculator\\Console Calculator.vcxproj|C:\\Users\\USER\\Desktop\\projects\\Week 2\\Console Calculator\\Console Calculator\\Console Calculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3E39E2DA-FA07-44ED-9762-BA6CD036FA07}|Console Calculator\\Console Calculator.vcxproj|solutionrelative:Console Calculator\\Console Calculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Console Calculator.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\projects\\Week 2\\Console Calculator\\Console Calculator\\Console Calculator.cpp",
+              "RelativeDocumentMoniker": "Console Calculator\\Console Calculator.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\projects\\Week 2\\Console Calculator\\Console Calculator\\Console Calculator.cpp",
+              "RelativeToolTip": "Console Calculator\\Console Calculator.cpp",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-13T05:22:39.596Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

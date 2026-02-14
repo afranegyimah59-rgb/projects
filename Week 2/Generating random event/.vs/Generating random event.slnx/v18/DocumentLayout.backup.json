@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\projects\\Week 2\\Generating random event\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD56CBA1-D9D4-4BCB-B6D1-B3781DADF625}|Generating random event\\Generating random event.vcxproj|C:\\Users\\USER\\Desktop\\projects\\Week 2\\Generating random event\\Generating random event\\Generating random event.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD56CBA1-D9D4-4BCB-B6D1-B3781DADF625}|Generating random event\\Generating random event.vcxproj|solutionrelative:Generating random event\\Generating random event.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Generating random event.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\projects\\Week 2\\Generating random event\\Generating random event\\Generating random event.cpp",
+              "RelativeDocumentMoniker": "Generating random event\\Generating random event.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\projects\\Week 2\\Generating random event\\Generating random event\\Generating random event.cpp",
+              "RelativeToolTip": "Generating random event\\Generating random event.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-14T05:26:53.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
