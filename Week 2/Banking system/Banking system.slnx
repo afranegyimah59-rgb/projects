@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Banking system/Banking system.vcxproj" Id="37477d1d-28a7-4c4b-a9ea-38031e88198c" />
+</Solution>

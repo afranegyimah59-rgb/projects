@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Generating random numbers/Generating random numbers.vcxproj" />
+  <Project Path="Generating random numbers/Generating random numbers.vcxproj" Id="deb3c033-9c12-4feb-a4c1-391223055cc4" />
 </Solution>
