@@ -11,31 +11,39 @@ int main()
     int userChoice, computerChoice;
     srand(time(0));
     std::cout << " WELCOME TO ROCK PAPER SCISSORS GAME \n";
-    std::cout << "1.Rock\n";
-    std::cout << "2.Paper\n";
-    std::cout << "3.Scissors\n";
-    std::cout << "Enter your choice (1-3):";
-    std::cin >> userChoice;
+    do {
+        std::cout << "Choose one of the following:\n";
+        std::cout << "1.Rock\n";
+        std::cout << "2.Paper\n";
+        std::cout << "3.Scissors\n";
+        std::cout << "Enter your choice (1-3):";
+        std::cin >> userChoice;
+    } while (userChoice < 1 || userChoice>3);
     computerChoice = (rand() % 3) + 1;
     std::cout << "\n You choose:";
     switch (userChoice) {
     case 1:
         std::cout << "Rock\n";
         break;
+    case 2:
         std::cout << "Paper\n";
         break;
+    case 3:
         std::cout << "Scissors\n";
         break;
     default:
         std::cout << "Invalid Choice";
         return 0;
     }
+    std::cout << "\n Computer chose:";
     switch (computerChoice) {
     case 1:
         std::cout << "Rock\n";
         break;
+    case 2:
         std::cout << "Paper\n";
         break;
+    case 3:
         std::cout << "Scissors\n";
         break;
     }
