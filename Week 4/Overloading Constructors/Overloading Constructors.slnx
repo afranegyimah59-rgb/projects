@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Overloading Constructors/Overloading Constructors.vcxproj" Id="0bb43fe9-ad00-4a4b-b8f0-4f136f3f91bc" />
+</Solution>

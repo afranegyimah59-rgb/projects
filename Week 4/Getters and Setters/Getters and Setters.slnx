@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Getters and Setters/Getters and Setters.vcxproj" Id="f4448028-0a16-4efe-9241-a8087603de30" />
+</Solution>

@@ -1,0 +1,4 @@
+﻿  Credit Card Validator.cpp
+C:\Users\USER\Desktop\projects\Week 3\Credit Card Validator\Credit Card Validator\Credit Card Validator.cpp(36,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\USER\Desktop\projects\Week 3\Credit Card Validator\Credit Card Validator\Credit Card Validator.cpp(46,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Credit Card Validator.vcxproj -> C:\Users\USER\Desktop\projects\Week 3\Credit Card Validator\x64\Debug\Credit Card Validator.exe

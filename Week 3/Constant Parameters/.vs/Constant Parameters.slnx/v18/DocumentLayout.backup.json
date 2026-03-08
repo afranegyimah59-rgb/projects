@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\projects\\Week 3\\Constant Parameters\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9DDADB5-E650-4DAF-9DD7-734226B2EC22}|Constant Parameters\\Constant Parameters.vcxproj|C:\\Users\\USER\\Desktop\\projects\\Week 3\\Constant Parameters\\Constant Parameters\\Constant Parameters.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9DDADB5-E650-4DAF-9DD7-734226B2EC22}|Constant Parameters\\Constant Parameters.vcxproj|solutionrelative:Constant Parameters\\Constant Parameters.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Constant Parameters.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\projects\\Week 3\\Constant Parameters\\Constant Parameters\\Constant Parameters.cpp",
+              "RelativeDocumentMoniker": "Constant Parameters\\Constant Parameters.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\projects\\Week 3\\Constant Parameters\\Constant Parameters\\Constant Parameters.cpp",
+              "RelativeToolTip": "Constant Parameters\\Constant Parameters.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-08T07:24:50.666Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

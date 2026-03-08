@@ -1,0 +1,105 @@
+// Console Based Energy Calculator.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include <string>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+    int choice;
+    string applianceName;
+    double power;
+    double hours;
+    double totalkWh = 0;
+    double rate = 0.15;
+    cout << "*************SIMPLIFIED ENERGY AND COST CALCULATOR****************\n";
+    do
+    { 
+    cout << "1. Aircondition\n";
+    cout << "2. Refrigerator\n";
+    cout << "3. Washing Machine\n";
+    cout << "4. Televesion\n";
+    cout << "5. Microwave\n";
+    cout << "6. Rice Cooker\n";
+    cout << "7. Blender\n";
+    cout << "----Enter your choice------ \n";
+    cin >> choice;
+    
+    switch (choice)
+    {
+    case 1:
+        power = 1500;
+        applianceName = "Aircondition";
+        break;
+
+    case 2:
+        power = 2200;
+        applianceName = "Refrigerator";
+        break;
+
+    case 3:
+        power = 1200;
+        applianceName = "Washing Machine";
+        break;
+
+    case 4:
+        power = 500;
+        applianceName = "Television";
+        break;
+
+    case 5:
+        power = 350;
+        applianceName = "Microwave";
+        break;
+
+    case 6:
+        power = 120;
+        applianceName = "Rice Cooker";
+        break;
+
+    case 7:
+        power = 100;
+        applianceName = "Blender";
+        break;
+
+    default:
+        cout << "Invalid choice! try again.\n\n";
+    }
+       
+    } while (choice < 1 || choice>7);
+   
+
+    cout << "-------ENTER POWER CONSUMPTION IN WATTS\n";
+    cin >> power;
+    cout << "-------ENTER HOURS OF USAGE PER DAY\n";
+    cin >> hours;
+    cout << fixed << setprecision(2);
+    double dailykWh = (power * hours) / 1000.0;
+   totalkWh += (dailykWh * 30);
+   cout << "Total energy consumption for " << applianceName    <<   "in a month :" << totalkWh << "kWh\n";
+   double monthlyAmount = totalkWh * rate;
+   cout << "Total monthly cost for " << applianceName << " : $" << monthlyAmount << "\n";
+
+
+   
+
+    
+
+
+
+   return 0;
+}
+
+// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+// Debug program: F5 or Debug > Start Debugging menu
+
+// Tips for Getting Started: 
+//   1. Use the Solution Explorer window to add/manage files
+//   2. Use the Team Explorer window to connect to source control
+//   3. Use the Output window to see build output and other messages
+//   4. Use the Error List window to view errors
+//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
+//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

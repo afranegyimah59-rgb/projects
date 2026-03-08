@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\projects\\Week 4\\Enums\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBC84-ADC1-4EE9-9A15-499F8A65B0E0}|Enums\\Enums.vcxproj|C:\\Users\\USER\\Desktop\\projects\\Week 4\\Enums\\Enums\\Enums.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47DCBC84-ADC1-4EE9-9A15-499F8A65B0E0}|Enums\\Enums.vcxproj|solutionrelative:Enums\\Enums.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enums.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\projects\\Week 4\\Enums\\Enums\\Enums.cpp",
+              "RelativeDocumentMoniker": "Enums\\Enums.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\projects\\Week 4\\Enums\\Enums\\Enums.cpp",
+              "RelativeToolTip": "Enums\\Enums.cpp",
+              "ViewState": "AgIAAAYAAAAAAID1vvkuwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-08T07:48:31.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Pass Struct as arguement/Pass Struct as arguement.vcxproj" />
+</Solution>

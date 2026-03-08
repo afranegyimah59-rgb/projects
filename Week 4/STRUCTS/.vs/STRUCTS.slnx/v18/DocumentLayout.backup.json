@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\projects\\Week 4\\STRUCTS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D18A604-E56B-47BF-97E4-B973D6B6710D}|STRUCTS\\STRUCTS.vcxproj|C:\\Users\\USER\\Desktop\\projects\\Week 4\\STRUCTS\\STRUCTS\\STRUCTS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D18A604-E56B-47BF-97E4-B973D6B6710D}|STRUCTS\\STRUCTS.vcxproj|solutionrelative:STRUCTS\\STRUCTS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "STRUCTS.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\projects\\Week 4\\STRUCTS\\STRUCTS\\STRUCTS.cpp",
+              "RelativeDocumentMoniker": "STRUCTS\\STRUCTS.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\projects\\Week 4\\STRUCTS\\STRUCTS\\STRUCTS.cpp",
+              "RelativeToolTip": "STRUCTS\\STRUCTS.cpp",
+              "ViewState": "AgIAABoAAAAAAABMZ7f5vwEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-08T07:44:09.844Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Console Based Energy Calculator/Console Based Energy Calculator.vcxproj" Id="daf36888-cee3-4085-be57-3c0f04f5a4c1" />
+</Solution>

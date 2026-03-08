@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Null Pointers/Null Pointers.vcxproj" Id="a71e46e9-be0b-46bc-8752-dc71f4ade71b" />
+</Solution>
