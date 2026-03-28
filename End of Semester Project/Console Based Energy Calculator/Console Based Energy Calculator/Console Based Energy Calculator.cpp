@@ -15,82 +15,95 @@ int main()
     double hours;
     double totalkWh = 0;
     double rate = 0.15;
+    double totalMonthlyAmount = 0.0;
+    char cont = 'y';
     cout << "*************SIMPLIFIED ENERGY AND COST CALCULATOR****************\n";
-    do
-    { 
-    cout << "1. Aircondition\n";
-    cout << "2. Refrigerator\n";
-    cout << "3. Washing Machine\n";
-    cout << "4. Televesion\n";
-    cout << "5. Microwave\n";
-    cout << "6. Rice Cooker\n";
-    cout << "7. Blender\n";
-    cout << "----Enter your choice------ \n";
-    cin >> choice;
-    
-    switch (choice)
+    // Loop to allow the user to select appliances and calculate repeatedly
+    while (cont == 'y' || cont == 'Y')
     {
-    case 1:
-        power = 1500;
-        applianceName = "Aircondition";
-        break;
+        // Show menu and get a valid choice
+        do
+        {
+            cout << "1. Aircondition\n";
+            cout << "2. Refrigerator\n";
+            cout << "3. Washing Machine\n";
+            cout << "4. Television\n";
+            cout << "5. Microwave\n";
+            cout << "6. Rice Cooker\n";
+            cout << "7. Blender\n";
+            cout << "----Enter your choice------ \n";
 
-    case 2:
-        power = 2200;
-        applianceName = "Refrigerator";
-        break;
+            cin >> choice;
 
-    case 3:
-        power = 1200;
-        applianceName = "Washing Machine";
-        break;
+            switch (choice)
+            {
+            case 1:
+                power = 1500;
+                applianceName = "Aircondition";
+                break;
 
-    case 4:
-        power = 500;
-        applianceName = "Television";
-        break;
+            case 2:
+                power = 2200;
+                applianceName = "Refrigerator";
+                break;
 
-    case 5:
-        power = 350;
-        applianceName = "Microwave";
-        break;
+            case 3:
+                power = 1200;
+                applianceName = "Washing Machine";
+                break;
 
-    case 6:
-        power = 120;
-        applianceName = "Rice Cooker";
-        break;
+            case 4:
+                power = 500;
+                applianceName = "Television";
+                break;
 
-    case 7:
-        power = 100;
-        applianceName = "Blender";
-        break;
+            case 5:
+                power = 350;
+                applianceName = "Microwave";
+                break;
 
-    default:
-        cout << "Invalid choice! try again.\n\n";
+            case 6:
+                power = 120;
+                applianceName = "Rice Cooker";
+                break;
+
+            case 7:
+                power = 100;
+                applianceName = "Blender";
+                break;
+
+            default:
+                cout << "Invalid choice! Try again.\n\n";
+            }
+
+        } while (choice < 1 || choice > 7);
+
+        // Prompting user to enter power consumption for the selected appliance and hours of usage per day, then calculating the total energy
+        cout << "-------ENTER POWER CONSUMPTION IN WATTS\n";
+        cin >> power;
+        cout << "-------ENTER HOURS OF USAGE PER DAY\n";
+        cin >> hours;
+
+        // Calculating total energy consumption for the selected appliance
+        cout << fixed << setprecision(2);
+        double dailykWh = (power * hours) / 1000.0;
+        double monthlykWh = dailykWh * 30.0; // energy for this appliance for a month
+        // Add to running totals
+        totalkWh += monthlykWh;
+        double monthlyAmount = monthlykWh * rate; // cost for this appliance for a month
+        totalMonthlyAmount += monthlyAmount;
+
+        // Show per-appliance monthly kWh and cost
+        cout << "Monthly energy consumption for " << applianceName << ": " << monthlykWh << " kWh\n";
+        cout << "Monthly cost for " << applianceName << " : $" << monthlyAmount << "\n";
+        cout << "Do you want to calculate for another appliance? (y/n)\n";
+        cin >> cont;
     }
-       
-    } while (choice < 1 || choice>7);
-   
+    cout << "\n==========TOTAL ENERGY CONSUMPTION AND COST FOR APPLIANCE SELECTED==========\n";
+    cout << "Total Energy: " << totalkWh << " kWh\n";
+    cout << "Total Cost: $" <<totalMonthlyAmount << "\n";
 
-    cout << "-------ENTER POWER CONSUMPTION IN WATTS\n";
-    cin >> power;
-    cout << "-------ENTER HOURS OF USAGE PER DAY\n";
-    cin >> hours;
-    cout << fixed << setprecision(2);
-    double dailykWh = (power * hours) / 1000.0;
-   totalkWh += (dailykWh * 30);
-   cout << "Total energy consumption for " << applianceName    <<   "in a month :" << totalkWh << "kWh\n";
-   double monthlyAmount = totalkWh * rate;
-   cout << "Total monthly cost for " << applianceName << " : $" << monthlyAmount << "\n";
-
-
-   
-
-    
-
-
-
-   return 0;
+return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
